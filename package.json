@@ -62,8 +62,8 @@
     "node": ">=0.4.0"
   },
   "dependencies": {
-    "lodash": "3.x",
-    "postal.federation": ">=0.5.2"
+  "lodash": "4.x",
+  "postal.federation": "git+ssh://git@github.com/TomFalkner/postal.federation.git#update-lodash"
   },
   "devDependencies": {
   	"babel": "5.x",
