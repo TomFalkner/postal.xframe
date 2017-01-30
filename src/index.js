@@ -14,7 +14,7 @@ function listener() {
 }
 
 function listenToWorker( worker ) {
-	if ( !_.include( state.workers, worker ) ) {
+	if ( !_.includes( state.workers, worker ) ) {
 		worker.addEventListener( "message", listener );
 		state.workers.push( worker );
 	}
